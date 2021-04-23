@@ -4,14 +4,11 @@ import Animated, {
   useSharedValue,
   withSpring,
   useAnimatedStyle,
-  useAnimatedGestureHandler,
   withRepeat,
   withTiming,
   withSequence,
   withDelay,
-  interpolate,
   Easing,
-  useAnimatedProps,
   useDerivedValue,
 } from 'react-native-reanimated';
 

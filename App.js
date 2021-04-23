@@ -9,13 +9,6 @@
 import React from 'react';
 import {SafeAreaView, View} from 'react-native';
 
-import {
-  useSharedValue,
-  withSpring,
-  useAnimatedStyle,
-  useAnimatedGestureHandler,
-} from 'react-native-reanimated';
-
 import {NormalAnimation} from './src/components/NormalAnimation';
 import {SvgAnimation} from './src/components/SvgAnimation';
 

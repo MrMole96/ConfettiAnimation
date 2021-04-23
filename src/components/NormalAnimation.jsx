@@ -1,29 +1,10 @@
 import React from 'react';
-import {
-  Button,
-  Pressable,
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
+import {Pressable, Text, View} from 'react-native';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
 import Animated, {
   useSharedValue,
   withSpring,
   useAnimatedStyle,
-  useAnimatedGestureHandler,
-  withRepeat,
   withTiming,
   withSequence,
   withDelay,
