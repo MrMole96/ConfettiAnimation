@@ -15,10 +15,10 @@ import Animated, {
   useDerivedValue,
 } from 'react-native-reanimated';
 
-import Icon1 from './icon1.svg';
-import Icon2 from './icon2.svg';
-import Icon3 from './icon3.svg';
-import Icon4 from './icon4.svg';
+import Icon1 from '../assets/icon1.svg';
+import Icon2 from '../assets/icon2.svg';
+import Icon3 from '../assets/icon3.svg';
+import Icon4 from '../assets/icon4.svg';
 
 const NUMBER_ELEMENTS = 10;
 
